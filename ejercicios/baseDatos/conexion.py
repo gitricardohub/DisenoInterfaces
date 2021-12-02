@@ -1,7 +1,7 @@
 import sqlite3 as dbapi  # importamos la librería de sqlLite
 
 print(dbapi.version)
-print(dbapi.threadsafety)  # Como es de seguro el uso de este hilo (de 0 a 3 en función de lo seguro que sea)
+print(dbapi.threadsafety)  # Como es de seguro   el uso de este hilo (de 0 a 3 en función de lo seguro que sea)
 print(dbapi.paramstyle)  # para comprobar las consultas antes del procesado (SQLinjection)
 
 """
